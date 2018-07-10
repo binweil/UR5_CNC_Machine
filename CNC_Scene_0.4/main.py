@@ -11,7 +11,7 @@ import vrep
 import numpy as np
 import math
 
-data = np.genfromtxt("data_0.4.txt")
+data = np.genfromtxt("Start_and_Goal_Config.txt")
 data = np.around(data, decimals=4)
 data = data.tolist()
 
